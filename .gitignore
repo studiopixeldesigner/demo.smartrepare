@@ -1,7 +1,0 @@
-# Configuration privée (empreinte du mot de passe admin) — ne jamais publier
-config.php
-
-# Fichiers système
-Thumbs.db
-desktop.ini
-.DS_Store

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact & Devis - Smart Repare</title>
     <link rel="stylesheet" href="style.css?v=3">
-    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    <link rel="icon" type="image/png" href="favicon-96.png">
     <style>
         /* BASE & THÈME SOMBRE */
         body {
@@ -360,7 +360,7 @@
                     <!-- Bloc d'affichage des messages de confirmation / erreur -->
 
 <div id="form-alert" style="display: none; padding: 15px 20px; border-radius: 10px; margin-bottom: 25px; font-weight: 500; font-size: 0.95rem;"></div>
-                    <form action="traitement-contact.php" method="POST" id="formulaire">
+                    <form action="#" method="POST" id="formulaire">
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="nom">Nom & Prénom *</label>
@@ -512,6 +512,23 @@ document.addEventListener('DOMContentLoaded', () => {
             alertBox.textContent = 'Une erreur est survenue lors de l\'envoi. Veuillez vérifier vos champs ou nous contacter directement par téléphone.';
         }
     }
+});
+</script>
+<script>
+// Version de démonstration : le formulaire n'envoie rien, un message s'affiche à la place.
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('formulaire');
+    const alertBox = document.getElementById('form-alert');
+    if (!form || !alertBox) return;
+    form.addEventListener('submit', event => {
+        event.preventDefault();
+        alertBox.style.display = 'block';
+        alertBox.style.backgroundColor = 'rgba(56, 189, 248, 0.12)';
+        alertBox.style.border = '1px solid #38bdf8';
+        alertBox.style.color = '#7dd3fc';
+        alertBox.textContent = 'Version de démonstration : ce formulaire n\'envoie pas de message. Pour une demande réelle, appelez le 09 81 03 54 61 ou écrivez à contact@smart-repare.fr.';
+        alertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
 });
 </script>
 <script src="script.js"></script>
