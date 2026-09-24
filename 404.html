@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page non trouvée - Smart Repare</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    <style>
+        /* BASE & THÈME SOMBRE */
+        body {
+            background-color: #0b0f17;
+            color: #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* SECTION 404 CENTRÉE */
+        .error-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .error-card {
+            background: linear-gradient(145deg, #161f2e, #0e1524);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 20px;
+            padding: 50px 30px;
+            max-width: 580px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .error-code {
+            font-size: 5.5rem;
+            font-weight: 800;
+            color: #10b981;
+            line-height: 1;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+        }
+
+        /* ANIMATION VAGUE */
+        .error-code span {
+            display: inline-block;
+            animation: wave 1.8s ease-in-out infinite;
+        }
+
+        .error-code span:nth-child(1) { animation-delay: 0s; }
+        .error-code span:nth-child(2) { animation-delay: 0.2s; }
+        .error-code span:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes wave {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-16px);
+            }
+        }
+
+        .error-title {
+            font-size: 1.6rem;
+            color: #f8fafc;
+            margin-bottom: 15px;
+        }
+
+        .error-text {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CONTENU ERREUR 404 -->
+    <main class="error-section">
+        <div class="error-card">
+            <div class="error-code">
+                <span>4</span><span>0</span><span>4</span>
+            </div>
+            <h1 class="error-title">Aïe ! Cette page est plus fissurée qu'un écran d'iPhone…</h1>
+            <p class="error-text">
+                Elle a fait une mauvaise chute. Heureusement, nos techniciens gèrent beaucoup mieux les téléphones que les liens morts !
+            </p>
+            <div class="error-actions">
+                <a href="index.html" class="btn btn--primary">Retour à l'accueil</a>
+                <a href="contact.html" class="btn btn--secondary">Nous contacter</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV - Smart Repare</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    <style>
+        body { background-color: #0b0f17; color: #e2e8f0; }
+        .legal-card {
+            background: linear-gradient(145deg, #161f2e, #0e1524);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 16px;
+            padding: 35px;
+            margin-bottom: 25px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+        }
+        .legal-card h2 { color: #10b981; font-size: 1.25rem; margin-bottom: 15px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 10px; }
+        .legal-card p, .legal-card ul { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; }
+        .legal-card ul { padding-left: 20px; }
+        .legal-card li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+    <div class="container header__wrapper">
+        <a href="index.html"><img src="images/logo_sr.webp" alt="Logo" class="header__logo"></a>
+        
+        <!-- 1. Ajout de id="nav-menu" -->
+        <nav class="nav" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="index.html" class="nav__link">Accueil</a></li>
+                <li><a href="index.html#services" class="nav__link">Services & Tarifs</a></li>
+                <li><a href="contact.html" class="nav__link">Contact & Devis</a></li>
+                <li><a href="a-propos.html" class="nav__link">À Propos</a></li>
+            </ul>
+        </nav>
+
+        <!-- 2. Ajout de la classe header__btn (pour le masquer sur mobile) -->
+        <a href="contact.html" class="btn btn--primary header__btn">Devis gratuit</a>
+
+        <!-- 3. Ajout du bouton burger -->
+        <button class="burger" id="burger-menu" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+    <section class="section" style="padding: 40px 0 20px 0;">
+        <div class="container">
+            <h1 class="section-title" style="color: #f8fafc;">Conditions Générales de Vente & de Réparation</h1>
+            <p style="color: #94a3b8; max-width: 650px; margin-top: 10px;">En vigueur au 1er janvier 2026. Réglant les prestations de réparation et de vente de l'atelier Smart Repare.</p>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top: 20px;">
+        <div class="container">
+
+            <div class="legal-card">
+                <h2>Article 1 — Objet & Champ d'application</h2>
+                <p>Les présentes Conditions Générales de Vente (CGV) s'appliquent à l'ensemble des prestations de diagnostic, de réparation, de maintenance et de vente de matériel ou d'accessoires effectuées par l'atelier <strong>Smart Repare</strong> auprès de ses clients.</p>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 2 — Prise en charge & Diagnostic</h2>
+                <p>Chaque appareil confié à l'atelier fait l'objet d'une fiche de prise en charge récapitulant l'état initial constaté et la panne déclarée. Un devis gratuit est établi avant toute intervention nécessitant le remplacement de pièces non prévues initialement.</p>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 3 — Garantie des Réparations (1 An)</h2>
+                <p><strong>Toutes les réparations effectuées par Smart Repare bénéficient d'une garantie d'une durée de 1 an (12 mois)</strong> à compter de la date de restitution de l'appareil.</p>
+                <p>Cette garantie couvre la ou les pièces remplacées ainsi que la main-d'œuvre associée à l'intervention initiale.</p>
+                <p><strong>Exclusions de garantie :</strong></p>
+                <ul>
+                    <li>Casse, chute, fêlure ou choc postérieur à la réparation.</li>
+                    <li>Oxydation, contact avec un liquide ou exposition à une humidité excessive.</li>
+                    <li>Intervention, ouverture ou tentative de réparation par un tiers non autorisé.</li>
+                    <li>Modifications logicielles non officielles, virus ou mauvaise utilisation de l'appareil.</li>
+                </ul>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 4 — Sauvegarde des Données</h2>
+                <p>Smart Repare met tout en œuvre pour préserver les données contenues dans les appareils confiés. Toutefois, le client est invité à effectuer une sauvegarde complète de ses données personnelles avant tout dépôt.</p>
+                <p>L'atelier ne saurait être tenu responsable d'une perte accidentelle de données liée à une défaillance matérielle préexistante ou à une réinitialisation système nécessaire à la réparation.</p>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 5 — Tarifs & Paiement</h2>
+                <p>Les prix des prestations et pièces sont affichés en euros toutes taxes comprises (TTC). Le règlement s'effectue lors de la restitution de l'appareil par carte bancaire ou espèces.</p>
+                <p>Les remises liées au label <strong>QualiRépar</strong> sont appliquées directement sur le montant TTC des réparations éligibles selon le barème officiel en vigueur.</p>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 6 — Non-retrait des Appareils</h2>
+                <p>Tout appareil non réclamé dans un délai de 3 mois suivant la notification de fin d'intervention pourra faire l'objet d'un frais de gardiennage. Après un délai de 1 an sans manifestation du client, l'appareil sera considéré comme abandonné conformément aux dispositions légales (loi du 31 décembre 1903).</p>
+            </div>
+
+            <div class="legal-card">
+                <h2>Article 7 — Droit Applicable & Litiges</h2>
+                <p>Les présentes conditions sont soumises au droit français. En cas de litige, une solution amiable sera recherchée en priorité avant toute action judiciaire auprès des tribunaux compétents.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__col">
+                <img src="images/Logo-Bonne-resolution.webp" alt="Smart Repare Logo" class="footer__logo">
+                <p class="footer__description">Votre atelier de référence pour la réparation de téléphones, ordinateurs, consoles et travaux de microsoudure à Vesoul.</p>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Navigation</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#services">Services & Tarifs</a></li>
+                    <li><a href="contact.html">Contact & Devis</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Contact</h4>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>16 Av. de la Gare, 70000 Vesoul</span>
+                </p>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="tel:0981035461">09 81 03 54 61</a>
+                </p>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <a href="mailto:contact@smart-repare.fr">contact@smart-repare.fr</a>
+                </p>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Réseaux sociaux</h4>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Smart.Repare.Vesoul/" target="_blank" rel="noopener" class="social-btn">Facebook</a>
+                    <a href="https://www.instagram.com/smart.repare.vesoul/?hl=fr" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-wrapper">
+                <p>&copy; 2026 Smart Repare - Tous droits réservés.</p>
+                <ul class="footer__legal-links">
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                </ul>
+                <p class="footer__credit">Powered by <a href="https://studiopixeldesigner.github.io/pixeldesigner/" target="_blank" rel="noopener">Pixel Designer</a></p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

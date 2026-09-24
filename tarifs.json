@@ -1,0 +1,352 @@
+{
+    "reparation-smartphone": {
+        "title": "Réparation Smartphone",
+        "is_grouped_by_gamme": true,
+        "gammes": {
+            "Gamme iPhone X": {
+                "iPhone X": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone XS": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone XR": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone XS Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 11": {
+                "iPhone 11": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 11 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 11 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 12": {
+                "iPhone 12 mini": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 12": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 12 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 12 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 13": {
+                "iPhone 13 mini": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 13": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 13 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 13 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 14": {
+                "iPhone 14": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 14 Plus": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 14 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 14 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 15": {
+                "iPhone 15": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 15 Plus": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 15 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 15 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 16": {
+                "iPhone 16e": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 16": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 16 Plus": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 16 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 16 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            },
+            "Gamme iPhone 17": {
+                "iPhone 17e": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 17": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone Air": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 17 Pro": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                },
+                "iPhone 17 Pro Max": {
+                    "Écran": 0,
+                    "Batterie": 0,
+                    "Connecteur de charge": 0,
+                    "Vitre arrière": 0,
+                    "Écouteur interne": 0
+                }
+            }
+        }
+    },
+    "reparation-ordinateur": {
+        "title": "Réparation Ordinateur",
+        "services": [
+            {
+                "name": "Installation Windows",
+                "icon": "installation",
+                "price": 60,
+                "from": false,
+                "qualirepar": false,
+                "description": "Réinstallation Windows avec récupération de données. Vous permet de retrouver un ordinateur sans bug et plus rapide, plus réactif."
+            },
+            {
+                "name": "Nettoyage",
+                "icon": "ventilateur",
+                "price": 42,
+                "from": true,
+                "qualirepar": false,
+                "description": "Dépoussiérage et remplacement de la pâte thermique pour retrouver un ordinateur propre et silencieux."
+            },
+            {
+                "name": "Remplacement Stockage",
+                "icon": "stockage",
+                "price": 110,
+                "from": true,
+                "qualirepar": true,
+                "description": "Remplacement de votre ancien disque dur (HDD) par un système de stockage plus récent et plus rapide (SSD)"
+            },
+            {
+                "name": "Remplacement Port USB PC Portable",
+                "icon": "prise",
+                "price": 60,
+                "from": true,
+                "qualirepar": false,
+                "description": "Remplacement du port USB sur votre PC Portable pour retrouver un port fonctionnel"
+            },
+            {
+                "name": "Remplacement Écran LCD",
+                "icon": "pc-portable",
+                "price": 100,
+                "from": true,
+                "qualirepar": true,
+                "description": "L'écran LCD de votre ordinateur est HS ? Alors optez pour un remplacement de dalle LCD pour retrouver un affichage comme neuf."
+            }
+        ]
+    },
+    "reparation-console": {
+        "title": "Réparation Console",
+        "services": [
+            {
+                "name": "PS5 - Nettoyage complet & Pâte thermique",
+                "icon": "temperature",
+                "price": 65,
+                "from": false,
+                "description": ""
+            },
+            {
+                "name": "PS4 / PS5 - Remplacement port HDMI",
+                "icon": "prise",
+                "price": 85,
+                "from": false,
+                "description": ""
+            }
+        ]
+    },
+    "reparations-trottinettes": {
+        "title": "Réparations Trottinettes",
+        "services": [
+            {
+                "name": "Changement Chambre à air / Pneu",
+                "icon": "roue",
+                "price": 35,
+                "from": false,
+                "description": ""
+            },
+            {
+                "name": "Réglage & Changement Freins",
+                "icon": "frein",
+                "price": 40,
+                "from": false,
+                "description": ""
+            },
+            {
+                "name": "Gâchette d'accélérateur / Dashboard",
+                "icon": "compteur",
+                "price": 50,
+                "from": false,
+                "description": ""
+            },
+            {
+                "name": "Diagnostic Panne / Contrôleur / Batterie",
+                "icon": "outil",
+                "price": 30,
+                "from": false,
+                "description": ""
+            }
+        ]
+    }
+}

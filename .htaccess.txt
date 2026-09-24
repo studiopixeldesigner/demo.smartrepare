@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^smartphones\.html$ smartphones.php [R=301,L]
+
+ErrorDocument 404 /404.html

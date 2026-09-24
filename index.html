@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Repare Vesoul - Réparation Smartphones, PC, Consoles, Trottinettes & Microsoudure</title>
+    <meta name="description" content="Réparation rapide de smartphones, ordinateurs, consoles de jeux et travaux de microsoudure à Vesoul. Diagnostic gratuit et pièces garanties.">
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="icon" type="image/png" href="favicon.png?v=2">
+    
+    <style>
+        /* STYLES AVIS GOOGLE DYNAMIQUES */
+        .reviews-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background: linear-gradient(145deg, #161f2e, #0e1524);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 0 auto 30px auto;
+            max-width: 420px;
+        }
+
+        .rating-score {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #10b981;
+            line-height: 1;
+        }
+
+        .stars {
+            color: #f59e0b;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+
+        .rating-details p {
+            margin: 4px 0 0 0;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .review-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: left;
+        }
+
+        .review-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .review-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .review-author-name {
+            font-weight: 600;
+            color: #f8fafc;
+            font-size: 0.95rem;
+        }
+
+        .review-date {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        .review-text {
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            line-height: 1.5;
+            margin: 0;
+        }
+    </style>
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ElectronicsRepairShop",
+      "name": "Smart Repare",
+      "image": "images/logo_sr.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "16 Av. de la Gare",
+        "addressLocality": "Vesoul",
+        "postalCode": "70000",
+        "addressCountry": "FR"
+      },
+      "url": "https://www.smart-repare.fr",
+      "telephone": "+33981035461",
+      "email": "contact@smart-repare.fr",
+      "sameAs": [
+        "https://www.facebook.com/Smart.Repare.Vesoul/",
+        "https://www.instagram.com/smart.repare.vesoul/?hl=fr"
+      ],
+      "priceRange": "€€",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "12:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "13:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "12:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div class="container header__wrapper">
+            <a href="index.html"><img src="images/logo_sr.webp" alt="Logo" class="header__logo"></a>
+            
+            <nav class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li><a href="#services" class="nav__link">Services & Tarifs</a></li>
+                    <li><a href="contact.html" class="nav__link">Contact & Devis</a></li>
+                    <li><a href="a-propos.html" class="nav__link">À Propos</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:0981035461" class="btn btn--primary header__btn">09 81 03 54 61</a>
+
+            <button class="burger" id="burger-menu" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==================== HERO ==================== -->
+        <section class="hero">
+            <div class="container hero__wrapper">
+                <div class="hero__content">
+                    <span class="hero__badge">Atelier & Intervention Express à Vesoul</span>
+                    <h1 class="hero__title">Réparation de smartphones, ordinateurs, consoles, trottinettes & <span>microsoudure</span></h1>
+                    <p class="hero__subtitle">Diagnostic rapide et gratuit, pièces garanties et interventions express en atelier.</p>
+                    <div class="hero__cta-group">
+                        <a href="contact.html" class="btn btn--primary">Demander un devis</a>
+                        <a href="#services" class="btn btn--secondary">Voir les tarifs</a>
+                    </div>
+                </div>
+                <div class="hero__image-wrapper">
+                    <div class="hero__image-card">
+                        <img src="images/sr_home.jpg" alt="Atelier d'accueil Smart Repare Vesoul" class="hero__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== RÉASSURANCE (BANDEAU ANIMÉ) ==================== -->
+        <section class="reassurance">
+            <div class="container reassurance__grid">
+                <div class="reassurance__item">
+                    <div class="reassurance__icon">
+                        <svg class="icon" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <div class="reassurance__text">
+                        <h3 class="reassurance__title">Réparation express</h3>
+                        <p class="reassurance__desc">Prise en charge rapide</p>
+                    </div>
+                </div>
+                <div class="reassurance__item">
+                    <div class="reassurance__icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <div class="reassurance__text">
+                        <h3 class="reassurance__title">Pièces de qualité</h3>
+                        <p class="reassurance__desc">Composants sélectionnés</p>
+                    </div>
+                </div>
+                <div class="reassurance__item">
+                    <div class="reassurance__icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+                    </div>
+                    <div class="reassurance__text">
+                        <h3 class="reassurance__title">Devis clair</h3>
+                        <p class="reassurance__desc">Sans surprise</p>
+                    </div>
+                </div>
+                <div class="reassurance__item">
+                    <div class="reassurance__icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div class="reassurance__text">
+                        <h3 class="reassurance__title">Interventions garanties</h3>
+                        <p class="reassurance__desc">Sérénité assurée</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== SERVICES ==================== -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nos prestations de réparation</h2>
+                    <p class="section-subtitle">Spécialiste toutes marques pour téléphones, ordinateurs, consoles, trottinettes et microsoudure</p>
+                </div>
+
+                <div class="services__carousel-wrapper">
+                    <button class="slider-btn slider-btn--prev" id="slide-left" aria-label="Service précédent">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+
+                    <div class="services__track" id="services-track">
+                        <article class="service-card">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                            </div>
+                            <h3 class="service-card__title">Smartphones & Tablettes</h3>
+                            <p class="service-card__description">Écran, batterie, connecteur de charge, désoxydation suite à un contact liquide.</p>
+                            <a href="smartphones.php" class="service-card__link">Voir les tarifs ➔</a>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="2" y1="20" x2="22" y2="20"></line></svg>
+                            </div>
+                            <h3 class="service-card__title">Informatique (PC & Mac)</h3>
+                            <p class="service-card__description">Dépannage système, remplacement SSD, nettoyage virus, réinstallation et composants.</p>
+                            <a href="ordinateurs.php" class="service-card__link">Voir les tarifs ➔</a>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><line x1="6" y1="12" x2="10" y2="12"></line><line x1="8" y1="10" x2="8" y2="14"></line><circle cx="15" cy="13" r="1"></circle><circle cx="18" cy="11" r="1"></circle><rect x="2" y="6" width="20" height="12" rx="6"></rect></svg>
+                            </div>
+                            <h3 class="service-card__title">Consoles de Jeux</h3>
+                            <p class="service-card__description">Port HDMI, problèmes de surchauffe, remplacement de lecteur optique et manettes.</p>
+                            <a href="consoles.php" class="service-card__link">Voir les tarifs ➔</a>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><circle cx="5" cy="18" r="2.5"></circle><circle cx="19" cy="18" r="2.5"></circle><line x1="7.5" y1="18" x2="16.5" y2="18"></line><line x1="19" y1="18" x2="16" y2="4"></line><line x1="14" y1="4" x2="18" y2="4"></line></svg>
+                            </div>
+                            <h3 class="service-card__title">Trottinettes Électriques</h3>
+                            <p class="service-card__description">Crevaison, freins, accélérateur, diagnostic batterie et contrôleur toutes marques.</p>
+                            <a href="trottinettes.php" class="service-card__link">Voir les tarifs ➔</a>
+                        </article>
+
+                        <article class="service-card">
+                            <div class="service-card__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                            </div>
+                            <h3 class="service-card__title">Microsoudure Spécialisée</h3>
+                            <p class="service-card__description">Diagnostic avancé et réparation de carte mère (puces de charge, audio, court-circuit).</p>
+                            <a href="microsoudure.html" class="service-card__link">Voir les tarifs ➔</a>
+                        </article>
+                    </div>
+
+                    <button class="slider-btn slider-btn--next" id="slide-right" aria-label="Service suivant">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+
+                <div class="services__action">
+                    <a href="contact.html" class="btn btn--outline">Demander un devis sur mesure</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PROCESS ==================== -->
+        <section class="process section section--bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Comment ça marche ?</h2>
+                    <p class="section-subtitle">Un processus simple et transparent en 3 étapes</p>
+                </div>
+
+                <div class="process__steps">
+                    <div class="process__step">
+                        <div class="process__number">01</div>
+                        <h3 class="process__step-title">Dépôt / Devis</h3>
+                        <p class="process__step-text">Passage en boutique à Vesoul ou estimation en ligne.</p>
+                    </div>
+
+                    <div class="process__step">
+                        <div class="process__number">02</div>
+                        <h3 class="process__step-title">Diagnostic & Réparation</h3>
+                        <p class="process__step-text">Prise en charge rapide après accord sur le prix.</p>
+                    </div>
+
+                    <div class="process__step">
+                        <div class="process__number">03</div>
+                        <h3 class="process__step-title">Restitution</h3>
+                        <p class="process__step-text">Récupération de l'appareil testé et garanti.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== ANCRAGE LOCAL & HORAIRES ==================== -->
+        <section class="location section">
+            <div class="container location__wrapper">
+                <div class="location__info">
+                    <h2 class="location__title">Votre atelier à Vesoul</h2>
+                    <p class="location__text">Passez en boutique sans rendez-vous pour faire tester votre matériel.</p>
+
+                    <div class="location__card">
+                        <div class="location__detail-item">
+                            <div class="location__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div>
+                                <strong>Adresse :</strong><br>
+                                16 Av. de la Gare, 70000 Vesoul, FRANCE
+                            </div>
+                        </div>
+                        <div class="location__detail-item">
+                            <div class="location__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <strong>Téléphone :</strong><br>
+                                <a href="tel:0981035461">09 81 03 54 61</a>
+                            </div>
+                        </div>
+                        <div class="location__detail-item">
+                            <div class="location__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div>
+                                <strong>E-mail :</strong><br>
+                                <a href="mailto:contact@smart-repare.fr">contact@smart-repare.fr</a>
+                            </div>
+                        </div>
+                        <div class="location__detail-item">
+                            <div class="location__icon">
+                                <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </div>
+                            <div>
+                                <strong>Horaires d'ouverture :</strong><br>
+                                Mardi au Vendredi : 10h00 - 12h00 | 13h00 - 18h00<br>
+                                Samedi : 10h00 - 12h00<br>
+                                <span class="text-muted">Dimanche & Lundi : Fermé</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com/?q=16+Av.+de+la+Gare,+70000+Vesoul" target="_blank" rel="noopener" class="btn btn--primary">Obtenir l'itinéraire</a>
+                </div>
+
+                <div class="location__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.082264906061!2d6.1508968!3d47.6212134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4792338575a2d043%3A0xb3e18a8dbe2fb534!2s16%20Av.%20de%20la%20Gare%2C%2070000%20Vesoul!5e0!3m2!1sfr!2sfr!4v1710000000000!5m2!1sfr!2sfr" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        title="Emplacement Smart Repare Vesoul">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== AVIS CLIENTS (DYNAMIQUES GOOGLE) ==================== -->
+        <section class="reviews section section--bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Avis clients</h2>
+                </div>
+
+                <!-- EN-TÊTE NOTE GLOBALE -->
+                <div id="reviews-header" class="reviews-header">
+                    <div class="rating-score" id="rating-score">--</div>
+                    <div class="rating-details">
+                        <div class="stars" id="rating-stars">★★★★★</div>
+                        <p id="rating-count">Chargement des avis Google...</p>
+                    </div>
+                </div>
+
+                <!-- GRILLE DES AVIS -->
+                <div class="reviews-grid" id="reviews-container">
+                    <!-- Les avis s'injecteront dynamiquement via Google Places API -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__col">
+                <img src="images/Logo-Bonne-resolution.webp" alt="Smart Repare Logo" class="footer__logo">
+                <p class="footer__description">Votre atelier de référence pour la réparation de téléphones, ordinateurs, consoles et travaux de microsoudure à Vesoul.</p>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Navigation</h4>
+                <ul class="footer__links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#services">Services & Tarifs</a></li>
+                    <li><a href="contact.html">Contact & Devis</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Contact</h4>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>16 Av. de la Gare, 70000 Vesoul</span>
+                </p>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="tel:0981035461">09 81 03 54 61</a>
+                </p>
+                <p class="footer__contact-item">
+                    <svg class="icon footer__icon" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <a href="mailto:contact@smart-repare.fr">contact@smart-repare.fr</a>
+                </p>
+            </div>
+
+            <div class="footer__col">
+                <h4 class="footer__title">Réseaux sociaux</h4>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Smart.Repare.Vesoul/" target="_blank" rel="noopener" class="social-btn">Facebook</a>
+                    <a href="https://www.instagram.com/smart.repare.vesoul/?hl=fr" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-wrapper">
+                <p>&copy; 2026 Smart Repare - Tous droits réservés.</p>
+                <ul class="footer__legal-links">
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                </ul>
+                <p class="footer__credit">Powered by <a href="https://studiopixeldesigner.github.io/pixeldesigner/" target="_blank" rel="noopener">Pixel Designer</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT GOOGLE MAPS API & REVIEWS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLE_API&libraries=places"></script>
+    <script>
+        const PLACE_ID = "ChIJnUznRrLskkcRBfCLHHh77U8";
+
+        function initGoogleReviews() {
+            const dummyDiv = document.createElement('div');
+            const service = new google.maps.places.PlacesService(dummyDiv);
+
+            service.getDetails({
+                placeId: PLACE_ID,
+                fields: ['rating', 'user_ratings_total', 'reviews']
+            }, (place, status) => {
+                if (status === google.maps.places.PlacesServiceStatus.OK && place) {
+                    renderRatingHeader(place.rating, place.user_ratings_total);
+                    if (place.reviews) {
+                        renderReviewCards(place.reviews);
+                    }
+                } else {
+                    console.error("Erreur de récupération des avis Google :", status);
+                }
+            });
+        }
+
+        function renderRatingHeader(rating, total) {
+            document.getElementById('rating-score').textContent = rating ? rating.toFixed(1) : '--';
+            document.getElementById('rating-count').textContent = `Basé sur ${total || 0} avis Google`;
+            
+            if (rating) {
+                const starsFormatted = '★'.repeat(Math.round(rating)) + '☆'.repeat(5 - Math.round(rating));
+                document.getElementById('rating-stars').textContent = starsFormatted;
+            }
+        }
+
+        function renderReviewCards(reviews) {
+            const container = document.getElementById('reviews-container');
+            container.innerHTML = '';
+
+            reviews.forEach(review => {
+                const starsFormatted = '★'.repeat(review.rating) + '☆'.repeat(5 - review.rating);
+                
+                const card = document.createElement('article');
+                card.className = 'review-card';
+                card.innerHTML = `
+                    <div class="review-author">
+                        <img src="${review.profile_photo_url}" alt="${review.author_name}" class="review-avatar" loading="lazy">
+                        <div>
+                            <div class="review-author-name">${review.author_name}</div>
+                            <div class="review-date">${review.relative_time_description}</div>
+                        </div>
+                    </div>
+                    <div class="stars" style="font-size: 0.9rem;">${starsFormatted}</div>
+                    <p class="review-text">"${review.text}"</p>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', initGoogleReviews);
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
